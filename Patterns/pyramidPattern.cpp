@@ -1,9 +1,10 @@
-
 /* Pattern pyramid 
-   1   
-  121   
- 12321   
-1234321
+        1     
+      1 2 1     
+    1 2 3 2 1     
+  1 2 3 4 3 2 1     
+1 2 3 4 5 4 3 2 1
+
 */
 
 #include <iostream>
@@ -20,16 +21,16 @@ int main()
         int lvar = i - 1;
         for (int j = 1; j <= n - i; j++)
         {
-            cout << " ";
+            cout << " " << " ";
         }
         for (int k = 1; k <= i; k++)
         {
-            cout << kvar;
+            cout << kvar << " ";
             kvar++;
         }
         for (int l = 1; l <= i - 1; l++)
         {
-            cout << lvar;
+            cout << lvar << " ";
             lvar--;
         }
         for (int m = 1; m <= n - 1; m++)
