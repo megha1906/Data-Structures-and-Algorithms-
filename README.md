@@ -1,2 +1,2 @@
 # Data-Structures-and-Algorithms-
-Data Structures and Algorithms codes using C++
+Data Structures and Algorithms coding questions using C++
