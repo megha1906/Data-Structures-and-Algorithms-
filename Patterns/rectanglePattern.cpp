@@ -26,8 +26,7 @@ int main()
         }
         for (int k = 1; k <= (i - 1) * 2; k++)
         {
-            cout << "*"
-                 << " ";
+            cout << "*" << " ";
         }
         for (int l = 1; l <= n - i + 1; l++)
         {
