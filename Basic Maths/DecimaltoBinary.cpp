@@ -1,3 +1,9 @@
+/*
+Input: 10
+Output:
+1 0 1 0 
+*/
+
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -16,7 +22,7 @@ int main()
     }
     for (int j = i - 1; j >= 0; j--)
     {
-        cout << binNumber[j];
+        cout << binNumber[j] << " ";
     }
     cout << endl;
 }
